@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+tanggal pengerjaan  : 22 April 2022
+nim                 : 10119022
+nama                : Muhammad Ikhlas Naufalsyah Ranau
+kelas               : IF-1
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELEMAT DATANG"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/btn_lihatProfile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="272dp"
+        android:text="@string/lihat_profile"
+        android:backgroundTint="@color/black_200"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/logout"
+        android:textColor="#FFFF"
+        android:backgroundTint="#D81B1B"/>
+
+</LinearLayout>
